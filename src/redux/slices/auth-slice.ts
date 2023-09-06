@@ -3,10 +3,6 @@ import {User} from '../../data/models';
 
 export const AUTH_FEATURE_KEY = 'auth';
 
-export interface AuthEntity {
-  id: number;
-}
-
 export interface AuthState {
   user: User | null;
   error?: string | null;

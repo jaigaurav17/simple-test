@@ -1,1 +1,2 @@
-export * from './UserRepositories';
+export * from './UserRepository';
+export * from './PostRepository';

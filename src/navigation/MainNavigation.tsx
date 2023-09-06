@@ -3,7 +3,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {useSelector} from 'react-redux';
 import {RootState} from '../redux/store';
 
-import {HomeScreen, LoginScreen} from '../components/screens';
+import {HomeScreen, LoginScreen, PostDetailScreen} from '../components/screens';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,6 +15,7 @@ export default function MainNavigation() {
       {isSignedIn ? (
         <>
           <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="Detail" component={PostDetailScreen} />
         </>
       ) : (
         <>

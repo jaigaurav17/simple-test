@@ -1,5 +1,7 @@
-Source Code for Task #1
+Source Code for Task #2
 # Getting Started
+
+Pull the task-2 branch from the repository
 
 ## Step 1: Setup Project
 
@@ -27,3 +29,8 @@ yarn android
 # Using Yarn
 yarn ios
 ```
+
+## Login Detail
+
+Username: user1
+Password: password1
