@@ -27,3 +27,8 @@ yarn android
 # Using Yarn
 yarn ios
 ```
+
+## Login Detail
+
+Username: user1
+Password: password1
